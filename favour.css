@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  body.dark-mode  {
+    background-color: #121212;
+    color: white;
+  }
+main{
+    height: 70vh;
+
+}
+.navbar{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: px;
+    
+}
+li a{
+    text-decoration: none;
+    font-size: 19px;
+    
+}
+li a:hover{
+    color: orangered;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(19, 226, 192);
+}
+span{
+    color: orangered;
+}
+#toggleDarkMode{
+    width: 7rem;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: orangered;
+}
+#toggleDarkMode:hover{
+    background-color: rgba(67, 71, 78, 1.00);
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 30px;
+    border-radius: 15px;
+    position: relative;
+    top: 70px;
+    margin-top: 60px;
+}
+.github{
+    margin-top: 20px;
+}
+.text-content{
+    margin-top: 100px;
+}
+.passion{
+    font-size: 35px;
+    font-weight: bold;
+}
+h2{
+    font-size: 100px;
+    gap: 100px;
+}
+.let{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: orangered;
+    border: none;
+}
+.let:hover{
+    box-shadow:  0 0 15px orangered;
+}
+.image{
+    width: 35rem;
+    height: 30rem;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.card-item  {
+    width: 25%;
+    border: 2px solid red;
+    height: 10rem;
+}
+.skill{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.word{
+    text-align: center;
+    border-radius: 5px;
+        margin-top: 50px;
+        background-color: black;color: white;
+        width: 230px;
+        height: 35ch;
+        box-shadow: 0 0 15px #333;
+}
+.background-image{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+.background-image:hover{
+    transform: scale(90%);
+    opacity: 0.5;
+    transition: ease-in-out 0.5s;
+}
+section{
+    margin-top: 50px;
+}
